@@ -1,0 +1,7 @@
+/* global.css - Estilos globais para a base do projeto */
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--color-background);
+    color: var(--color-text-dark);
+}

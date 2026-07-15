@@ -1,0 +1,7 @@
+/* header.css - Estilização completa do topo do site (logo, navegação, links e ícones) */
+
+.header {
+    width: 100%;
+    background-color: var(--color-background);
+    border-bottom: 1px solid var(--color-border);
+}

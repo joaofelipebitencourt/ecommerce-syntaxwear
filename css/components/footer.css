@@ -1,0 +1,7 @@
+/* footer.css - Estilização do rodapé do site, informações de contato, links institucionais e direitos autorais */
+
+.footer {
+    width: 100%;
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+}

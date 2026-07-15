@@ -1,0 +1,6 @@
+/* hero.css - Estilização do banner principal, imagens de fundo e textos de destaque */
+
+.hero {
+    width: 100%;
+    background-color: var(--color-background-alt);
+}

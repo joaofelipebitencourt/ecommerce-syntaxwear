@@ -1,0 +1,31 @@
+/* variables.css - Definição das variáveis de cores, tipografia, espaçamento e transições */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+:root {
+  /* Fontes */
+  --fonte-principal: "Ubuntu", sans-serif;
+
+  /* Cores de Destaque / Identidade */
+  --color-primary: #1a1a1a;
+  --color-secondary: #ff3e6c;
+  --color-accent: #00adb5;
+
+  /* Cores de Fundo / Texto */
+  --color-background: #ffffff;
+  --color-background-alt: #f8f9fa;
+  --color-text-dark: #2d3436;
+  --color-text-muted: #636e72;
+  --color-text-light: #ffffff;
+  --color-border: #dfe6e9;
+
+  /* Configurações Globais (Espaçamento, Sombra, Border Radius) */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  /* Transições */
+  --transition-fast: 0.2s ease-in-out;
+  --transition-normal: 0.3s ease-in-out;
+}

@@ -1,0 +1,80 @@
+/* 1. Box sizing e pseudo-elementos  */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* 2. Reset de Margins   */
+body,
+h1, h2, h3, h4, h5, h6,
+p, figure, blockquote, dl, dd {
+    margin: 0;
+}
+
+/* 3. Reset de Listas   */
+ul, ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* 4. Comportamento de scroll e Acessibilidade   */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+/* 5. Configurações do Body   */
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;  
+}
+
+/* 6. Links   */
+a {
+    text-decoration: none;
+    color: inherit;  
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* 7. Imagens */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* 8. Formulários e Botões   */
+button,
+input,
+textarea,
+select {
+    font: inherit;
+    background: transparent;
+    border: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* 9. Movimento reduzido / Acessibilidade   */
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
