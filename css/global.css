@@ -5,3 +5,30 @@ body {
     background-color: var(--color-background);
     color: var(--color-text-dark);
 }
+.btn{
+    font-size: 1.25rem;
+    width: 161px;
+    height: 48px;
+    border-radius: 30px;
+    color: var(--color-text-light);
+    font-weight: 400;
+    padding: 10px 20px;
+    transition: backgound-color 0.3s, border 0.3s;
+}
+
+.btn-outline{
+    background-color: transparent;
+    border: 2px solid var(--color-border-light);
+    line-height: 23px;
+}
+
+.btn-filled{
+    background-color:var(--color-background);
+    color:var(--color-accent-dark);
+}
+
+.btn:hover{
+    background-color:var(--color-accent-dark);
+    color:var(--color-primary);
+    border-color:var(--color-accent-dark);
+}

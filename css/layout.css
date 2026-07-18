@@ -1,8 +1,0 @@
-/* layout.css - Estrutura de grid, flexbox, container centralizador e espaçamentos gerais */
-
-.container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
