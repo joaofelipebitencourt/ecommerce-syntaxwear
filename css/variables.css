@@ -6,17 +6,22 @@
   --fonte-principal: "Ubuntu", sans-serif;
 
   /* Cores de Destaque / Identidade */
-  --color-primary: #1a1a1a;
-  --color-secondary: #ff3e6c;
-  --color-accent: #00adb5;
-
+  --color-primary: #ffffff;
+  --color-secondary: #333333;
+  --color-accent: #7c3aed;
+  --color-accent-dark: #6329a2;
   /* Cores de Fundo / Texto */
-  --color-background: #ffffff;
+  --color-background: #ffffff; /* Usado em fundos, cabeçalho e textos sobre fundo escuro */
   --color-background-alt: #f8f9fa;
+
   --color-text-dark: #333333;
-  --color-text-muted: #636e72;
+  --color-text-muted: #aaaaaa; /* Usado em placeholders e textos de menor importância */
   --color-text-light: #ffffff;
-  --color-border: #dfe6e9;
+  --color-text-light-gray: #ededed; /* Usado em títulos de cards e textos secundários do rodapé */
+
+  /* Cores de Borda */
+--color-border-light: #ffffff;      /* Para bordas brancas (usadas sobre fundos escuros/coloridos) */
+--color-border-muted: #dfe6e9;      /* Para bordas cinzas sutis (como a do header sobre fundo branco) */
 
   /* Configurações Globais (Espaçamento, Sombra, Border Radius) */
   --border-radius-sm: 4px;
