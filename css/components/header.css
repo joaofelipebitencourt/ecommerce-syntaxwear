@@ -5,7 +5,7 @@
     background-color: var(--color-background);
     border-bottom: 1px solid var(--color-border-muted);
     position: fixed;
-    top: 20px;
+    top: 60px;
     left: 50%;
     transform: translate(-50%);
     border-radius: 15px;
