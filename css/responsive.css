@@ -1,0 +1,153 @@
+/* ==========================================
+   Breakpoint: 1280px
+   ========================================== */
+
+   @media (max-width: 1280px){
+    /* global.css */
+    main{
+        padding: 0.625rem;
+    }
+
+     /* header.css */
+  .header {
+    width: calc(100% - 40px);
+  }
+   .menu-icon {
+    display: block;
+  }
+
+  .nav-container {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 200px;
+    flex-direction: column;
+    padding: 80px 20px 20px;
+    background-color: #ffffff;
+    gap: 2rem;
+    transition: right 0.3s ease;
+    align-items: flex-start;
+  }
+
+  .nav-center,
+  .nav-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-center ul,
+  .nav-right ul {
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  .nav-center a,
+  .nav-right a {
+    width: 100%;
+    border-bottom: 1px solid #eeeeee;
+    padding: 0.3rem 0;
+    font-size: 1rem;
+    display: block;
+  }
+
+  .menu-toggle:checked ~ .nav-container {
+    right: 0;
+  }
+}
+
+/* ==========================================
+   Breakpoint: 1000px
+   ========================================== */
+@media (max-width: 1000px) {
+	/* footer.css */
+	.footer-content {
+		flex-direction: column;
+		gap: 2rem;
+		padding: 2rem 1rem;
+	}
+
+	.footer-nav ul {
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	.footer-social ul {
+		gap: 1rem;
+	}
+
+	.footer-copy {
+		font-size: 1rem;
+		padding: 1.5rem 0 1.5rem;
+	}
+}
+
+/* ==========================================
+   Breakpoint: 768px
+   ========================================== */
+@media (max-width: 768px) {
+	/* hero.css */
+	.hero-section {
+		height: 660px;
+		background-image: url(../images/banners/hero-mobile.jpg);
+	}
+
+	.hero-overlay {
+		padding: 0;
+	}
+
+	.hero-content .hero-title {
+		font-size: 1.5rem;
+	}
+
+	.hero-content .hero-subtitle {
+		font-size: 1.25rem;
+	}
+
+	.hero-content {
+		max-width: 330px;
+		margin: 0 auto;
+	}
+
+	.btn {
+		font-size: 1.2rem;
+	}
+
+	/* product-grid.css */
+	.products-section {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: repeat(5, auto);
+		grid-template-areas:
+			"highlight highlight"
+			"sneaker-white sneaker-white"
+			"model sneaker-color"
+			"model sneaker-silver"
+			"sneaker-purple sneaker-purple";
+		max-width: 100%;
+		gap: 0.625rem;
+	}
+
+	.highlight {
+		min-height: 500px;
+	}
+
+	.midle {
+		min-height: 370px;
+	}
+
+	.left-bottom,
+	.top-right {
+		min-height: 190px;
+	}
+}
+
+/* ==========================================
+   Breakpoint: 500px
+   ========================================== */
+@media (max-width: 500px) {
+	/* product-category.css */
+	.highlights-card  {
+		width: 100%;
+	}
+
+   }

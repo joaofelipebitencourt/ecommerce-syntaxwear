@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="./css/components/highlights-section.css">
     <link rel="stylesheet" href="./css/components/products-section.css">
     <link rel="stylesheet" href="./css/components/footer.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
@@ -31,8 +32,13 @@
                 <img src="/images/logo/logo.svg" alt="SyntaxWear - Tênis e Sneakers Online">
             </a>
         </h1>
+        <input type="checkbox" class="menu-toggle" id="menu-toggle" />
+			<label for="menu-toggle" class="menu-icon">
+				<img src="./images/icons/hamburguer.svg" alt="menu mobile" srcset="" />
+			</label>
 
-        <nav class="nav-center" aria-label="Categorias Principais">
+        <nav class="nav-container">
+            <nav class="nav-center" aria-label="Categorias Principais">
             <ul>
                 <li><a href="#">Masculino</a></li>
                 <li><a href="#">Feminino</a></li>
@@ -60,6 +66,7 @@
                     </a>
                 </li>
             </ul>
+        </nav>
         </nav>
     </header>
 
